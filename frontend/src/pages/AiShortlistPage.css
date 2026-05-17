@@ -1,0 +1,69 @@
+.ai-summary {
+  background: linear-gradient(135deg, #ede9fe, #e0e7ff);
+  border: 1.5px solid #c4b5fd;
+}
+.ai-summary h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; color: #5b21b6; }
+.ai-summary p { color: #374151; font-size: 0.92rem; line-height: 1.6; }
+
+.ai-candidate-card { border-left: 4px solid #7c3aed; }
+
+.ai-rank-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.rank-number {
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.rank-info { flex: 1; }
+.rank-info h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.3rem; }
+.rank-meta { display: flex; flex-wrap: wrap; gap: 0; }
+
+.rank-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800;
+}
+.rank-score .score-num { font-size: 1.3rem; line-height: 1; }
+
+.ai-recommendation {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.ai-recommendation p { font-size: 0.9rem; color: #374151; line-height: 1.5; }
+
+.ai-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #7c3aed;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.ai-interview-qs ul, .extra-questions ol {
+  padding-left: 1.25rem;
+  font-size: 0.88rem;
+  color: #374151;
+  line-height: 1.7;
+}
+
+.generate-qs-section { margin-top: 0.75rem; }
+.extra-questions { background: #f9fafb; border-radius: 8px; padding: 0.75rem; margin-top: 0.5rem; }
