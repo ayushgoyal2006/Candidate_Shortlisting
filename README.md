@@ -98,7 +98,7 @@ cp .env.example .env
 Edit `frontend/.env` (only needed if backend runs on a different port):
 
 ```env
-REACT_APP_API_BASE_URL=http://localhost:5000/api
+REACT_APP_API_BASE_URL=https://candidate-shortlisting-dl5y.onrender.com
 ```
 
 ---
@@ -131,7 +131,7 @@ npm run dev
 ```
 
 This starts:
-- Backend on `http://localhost:5000`
+- Backend on `https://candidate-shortlisting-dl5y.onrender.com`
 - Frontend on `http://localhost:3000`
 
 #### Or run separately
